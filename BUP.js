@@ -34,6 +34,7 @@ $.fn.BUP = function (brother, beishu) {
 		width: 200,  // 放大镜宽
 		height: 200,  // 放大镜高
 		background: '#FFF', // 背景颜色
+		top: 50,
 		shadow: '0 8px 17px 0 rgba(0, 0, 0, 1)',  // 放大镜边缘阴影
 		border: '6px solid #FFF',  // 放大镜边框
 		cursor: true,  // 
