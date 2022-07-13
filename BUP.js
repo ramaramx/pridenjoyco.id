@@ -8,11 +8,6 @@ $.fn.BUP = function (brother, beishu) {
 	// If the target element is not an image
 	// 首先判断这个挂载元素是不是一个img标签
 	if (!$element.is('img')) {
-		console.log(
-			'%c Blowup.js Error: ' + '%cTarget element is not an image.',
-			'background: #FCEBB6; color: #F07818; font-size: 17px; font-weight: bold;',
-			'background: #FCEBB6; color: #F07818; font-size: 17px;'
-		)
 		return
 	}
 
