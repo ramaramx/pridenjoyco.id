@@ -572,17 +572,17 @@ canvas {
   width: 40px;
   padding: 0px 0px;
   z-index: 2;
-  background-image: url(./assets/logo-pauses.png);
+  background-image: url(./assets/logo-pause.png);
 
   background-position:center;
   background-size:45px;
   
 }
 .play {
-  background-image: url(./assets/logo-pauses.png);
+  background-image: url(./assets/logo-pause.png);
 }
 .pause {
-   background-image: url(./assets/logo-pause.png)!important;
+   background-image: url(./assets/logo-pauses.png)!important;
 }
 
 /* preloader */
